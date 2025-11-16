@@ -1,0 +1,64 @@
+<!-- PORTFOLIO DATA TEMPLATE
+    Fill in your information below and save it.
+    This will help us update your portfolio accurately.
+-->
+
+<!-- PERSONAL INFORMATION -->
+Full Name: Malick Arsalan Noor
+Job Title: Android Developer
+Professional Summary: [Your professional summary here]
+
+Email: [Your email]
+Phone: [Your phone number]
+Location: [Your city, country]
+
+LinkedIn: [Your LinkedIn URL]
+GitHub: [Your GitHub URL]
+Twitter: [Your Twitter URL]
+Instagram: [Your Instagram URL]
+
+<!-- WORK EXPERIENCE -->
+Experience 1:
+- Job Title: [Title]
+- Company: [Company Name]
+- Duration: [Start Date] - [End Date]
+- Description: [Job description and achievements]
+
+Experience 2:
+- Job Title: [Title]
+- Company: [Company Name]
+- Duration: [Start Date] - [End Date]
+- Description: [Job description and achievements]
+
+Experience 3:
+- Job Title: [Title]
+- Company: [Company Name]
+- Duration: [Start Date] - [End Date]
+- Description: [Job description and achievements]
+
+<!-- EDUCATION -->
+Education 1:
+- Degree: [Bachelor's/Master's in ___]
+- Institution: [University Name]
+- Year: [Graduation Year]
+
+Education 2:
+- Degree: [Certification Name]
+- Institution: [Institution Name]
+- Year: [Completion Year]
+
+<!-- SKILLS -->
+Languages: [Java, Kotlin, XML, etc.]
+Frameworks: [Android SDK, Jetpack, Room, Retrofit, etc.]
+Tools: [Android Studio, Firebase, Git, etc.]
+Other: [REST APIs, MVVM, etc.]
+
+<!-- SERVICES (What you can offer) -->
+Service 1: [Service Name] - [Description]
+Service 2: [Service Name] - [Description]
+Service 3: [Service Name] - [Description]
+
+<!-- ABOUT SECTION STATS -->
+Years of Experience: [Number]
+Projects Completed: [Number]
+Client Satisfaction: [Percentage]%
