@@ -192,7 +192,7 @@ $(document).ready(function() {
     // COUNTER ANIMATION FOR STATS
     // ============================================
     
-    function animateCounter($element, target) {
+    function animateCounter($element, target, suffix) {
         const start = 0;
         const duration = 2000; // 2 seconds
         const startTime = Date.now();
@@ -201,12 +201,8 @@ $(document).ready(function() {
             const elapsed = Date.now() - startTime;
             const progress = Math.min(elapsed / duration, 1);
             const current = Math.floor(start + (target - start) * progress);
-            
-            if (target > 100) {
-                $element.text(current + '+');
-            } else {
-                $element.text(current + '%');
-            }
+
+            $element.text(current + suffix);
             
             if (progress < 1) {
                 requestAnimationFrame(update);
@@ -223,8 +219,10 @@ $(document).ready(function() {
             if ($(window).scrollTop() + $(window).height() > statsTop) {
                 statsAnimated = true;
                 $('.stat-box h3').each(function() {
-                    const target = parseInt($(this).text());
-                    animateCounter($(this), target);
+                    const $stat = $(this);
+                    const target = parseInt($stat.data('target'), 10);
+                    const suffix = $stat.data('suffix') || '';
+                    animateCounter($stat, target, suffix);
                 });
             }
         }
