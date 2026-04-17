@@ -113,7 +113,7 @@ $(document).ready(function() {
     }, observerOptions);
     
     // Observe service cards, education cards, etc.
-    $('.service-card, .education-card, .skill-category, .timeline-item, .stat-box, .interest-card').each(function() {
+    $('.service-card, .education-card, .skill-category, .timeline-item, .interest-card').each(function() {
         $(this).css({
             opacity: 0,
             transform: 'translateY(30px)'
